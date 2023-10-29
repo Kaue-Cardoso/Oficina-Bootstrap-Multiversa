@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Multiversa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card container py-5">
+            <img src="Logo.png" alt="Logo">
+            <div class="top-card">
+                <h2>Log in</h2>
+                <p class="mb-4">Seja Bem Vindo ao Portal Multiversa</p>
+            </div>
+            <form>
+                <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" id="email" class="form-control" required>
+                  <div class="form-text">Não Compartilharemos seu email com ninguem</div>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Senha</label>
+                  <input type="password" id="password" class="form-control" required>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Lembre-de Mim</label>
+                </div>
+                <button type="button" id="loginButton" class="btn mt-4 "> <a href="">Login</a></button>
+              </form>
+        </div>
+    </div>
+
+    <!-- ... Seu código HTML anterior ... -->
+
+<script>
+  // Adiciona um ouvinte de evento de clique ao botão de login
+  document.getElementById('loginButton').addEventListener('click', function () {
+      // Obtém os valores dos campos de email e senha
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
+
+      // Verifica se os campos de email e senha estão preenchidos
+      if (email !== '' && password !== '') {
+          // Redireciona apenas se os campos estiverem preenchidos
+          window.location.href = "https://technos.multiversa.edu.br/";
+      } else {
+          // Se algum dos campos estiver vazio, exibe um alerta para o usuário
+          alert('Por favor, preencha os campos de email e senha.');
+      }
+  });
+</script>
+</body>
+</html>
+
+</body>
+</html>
