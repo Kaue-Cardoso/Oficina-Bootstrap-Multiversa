@@ -4,7 +4,7 @@ Oficina de Programação Web com Bootstrap
 ![image](https://github.com/Kaue-Cardoso/Oficina-Bootstrap-Multiversa/assets/54649009/9a1897ad-4e5f-4ba0-bd97-338884ff74a9)
 
 Descrição
-Este projeto consiste em uma oficina de programação web focada na introdução ao Bootstrap, destinada a alunos a alunos e interessados da instituição. A oficina foi desenvolvida para ensinar aos participantes os conceitos básicos de criação de páginas da web responsivas e atraentes usando o framework Bootstrap.
+Este projeto consiste em uma oficina de programação web focada na introdução ao Bootstrap e desenvolvimento WEb, destinada a alunos e interessados da instituição. A oficina foi desenvolvida para ensinar aos participantes os conceitos básicos de criação de páginas da web responsivas e atraentes usando o framework Bootstrap. A oficina consiste em uma aula Única de 2Hrs para criação e explicação.
 
 Objetivos
 Introduzir os alunos ao Bootstrap e conceitos de design responsivo.
